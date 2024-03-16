@@ -102,7 +102,7 @@ h6 {
   padding: 0;
   border: 0;
   outline: 0;
-  font-size: 100%;
+  font-size: 200%;
   vertical-align: baseline;
   background: transparent;
 }
@@ -246,8 +246,8 @@ img {
 -----------------------------------------------------------------------------*/
 body {
   font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif;
-  font-size: 0.9375em;
-  line-height: 1.65em;
+  font-size: 1.40625em;
+  line-height: 2.475em;
   background: #ffffff;
   color: #222222;
 }
@@ -284,21 +284,21 @@ h1,
 .h1,
 h2,
 .h2 {
-  line-height: 1.1;
+  line-height: 1.65;
 }
 h3,
 .h3,
 h4,
 .h4 {
-  line-height: 1.3;
+  line-height: 1.95;
 }
 h1,
 .h1 {
-  font-size: 2.25em;
+  font-size: 3.375em;
 }
 h2,
 .h2 {
-  font-size: 1.5em;
+  font-size: 2.25em;
   margin-bottom: .7em;
 }
 h3,
@@ -307,23 +307,23 @@ h3,
 }
 h4,
 .h4 {
-  font-size: 1.125em;
+  font-size: 1.6875em;
 }
 h5,
 .h5 {
-  font-size: 1em;
+  font-size: 1.5em;
 }
 h6,
 .h6 {
-  font-size: 0.75em;
+  font-size: 1.125em;
   text-transform: uppercase;
 }
 /* =Lead
 -----------------------------------------------------------------------------*/
 .lead {
-  font-size: 1.3125em;
-  line-height: 1.5;
-  margin-bottom: 1.0999999999999999em;
+  font-size: 1.96875em;
+  line-height: 2.25;
+  margin-bottom: 1.65em;
 }
 /* =Line height and margin
 -----------------------------------------------------------------------------*/
@@ -459,14 +459,14 @@ kbd,
 samp,
 var,
 output {
-  font-size: 90%;
+  font-size: 135%;
   font-style: normal;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 pre {
   margin-top: 1.65em;
-  font-size: 100%;
-  line-height: 1.5;
+  font-size: 150%;
+  line-height: 2.25;
   color: #222222;
   overflow: auto;
 }
@@ -483,11 +483,11 @@ code {
   border: 1px solid #d4d4d4;
 }
 pre code {
-  font-size: 100%;
+  font-size: 150%;
   border: none;
   padding: 0;
   background: none;
-  line-height: 1.65em;
+  line-height: 2.475em;
 }
 var {
   color: rgba(0, 0, 0, 0.5);
@@ -1350,8 +1350,8 @@ input.input-smaller {
 -----------------------------------------------------------------------------*/
 /* NavBar */
 .navbar {
-  font-size: 105%;
-  margin-bottom: 1.65em;
+  font-size: 150%;
+  margin-bottom: 2.475em;
 }
 .navbar:after {
   content: "";
@@ -1397,7 +1397,7 @@ input.input-smaller {
   text-decoration: none;
 }
 .navbar a:hover {
-  color: #de2c3b;
+  color: #C31457;
   text-decoration: underline;
 }
 .navbar li.active a,
@@ -1416,12 +1416,12 @@ input.input-smaller {
 .navigation-toggle:after {
   position: absolute;
   z-index: 1;
-  top: 50%;
-  margin-top: -12px;
-  left: 10px;
+  top: 75%;
+  margin-top: -18px;
+  left: 15px;
   content: "\2630";
-  font-size: 24px;
-  line-height: 1;
+  font-size: 36px;
+  line-height: 1.5;
 }
 .navigation-toggle.navigation-toggle-black {
   background-color: #0f0f0f;
@@ -1446,10 +1446,10 @@ input.input-smaller {
 /* Pills */
 .navbar-pills a,
 .navbar-pills span {
-  padding: 0.825em 1.65em;
+  padding: 1.2375em 2.475em;
 }
 .navbar-pills a:hover {
-  color: #0f0f0f;
+  color: #75D38E;
   background: #eee;
 }
 .navbar-pills li.active a,
