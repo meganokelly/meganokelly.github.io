@@ -74,7 +74,7 @@ a:hover {
 .main-nav {
   background: #f4f4f4;
   padding-top: 20px;
-  padding-bottom:5px;}
+  padding-bottom:0px;}
   .main-nav nav ul li a {
     color: #a7a7a7; }
   .main-nav nav ul li.active a {
