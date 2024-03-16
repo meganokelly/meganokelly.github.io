@@ -78,7 +78,7 @@ a:hover {
   .main-nav nav ul li a {
     color: #a7a7a7; }
   .main-nav nav ul li.active a {
-    color: #a7a7a7; }
+    color: #4d4d4d; }
 
 .section.second {
   margin-bottom: 90px; }
@@ -110,13 +110,13 @@ a:hover {
     z-index: -1;
     color: #f4f4f4; }
   .intro h1 span {
-    font-size: 71px; }
+    font-size: 106px; } /* originally 71*/
 
 .work .work-list {
   margin-left: 0px; }
   .work .work-list li {
     list-style: none;
-    font-size: 1.40625em;
+    font-size: 2.109375em; /* originally 1.40625*/
     color: #8c8c8c; }
     .work .work-list li a {
       padding-bottom: 5px;
@@ -130,13 +130,13 @@ a:hover {
 .award .award-list {
   margin-left: 0px; }
   .award .award-list li:first-child {
-    font-size: 1.40625em;
+    font-size: 2.109375em; /* originally 1.40625*/
     color: #8c8c8c; }
 
 .skills .skill-list {
   margin-left: 0px; }
   .skills .skill-list li:first-child {
-    font-size: 1.40625em;
+    font-size: 2.109375em; /* originally 1.40625*/
     color: #8c8c8c; }
 
 .quote {
