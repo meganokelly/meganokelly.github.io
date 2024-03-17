@@ -151,14 +151,20 @@ a:hover {
     border: 5px solid #fff;
     color: #fff; }
 
+
 footer {
-  padding: 50px 0px 0px 0px; }
-  footer .social li {
-    display: inline;
-    margin-left: 200px;
-    position: relative;
-    text-align: center;
-    right: 50%;
-    transform: translateX(50%);
-    font-size: 1.875em;
-    color: #999999; }
+  padding: 50px 0px 0px 0px;
+  text-align: center; /* Center the content horizontally */
+}
+
+footer .social {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+}
+
+footer .social li {
+  display: inline-block; /* Use inline-block to keep the elements inline */
+  margin-left: 20px; /* Adjust the spacing between icons */
+  font-size: 1.875em;
+  color: #999999;
+}
