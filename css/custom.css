@@ -156,9 +156,9 @@ footer {
   footer .social li {
     display: inline;
     margin-left: 200px;
-    position: relative;
+    /* position: relative;
     text-align: center; /* This centers the child elements horizontally */
-    right: 50%;
-    transform: translateX(50%); /* This centers the element */
+    /* right: 50%; */
+    /* transform: translateX(50%); /* This centers the element */
     font-size: 1.875em;
     color: #999999; }
