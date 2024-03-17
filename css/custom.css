@@ -160,11 +160,5 @@ footer {
     text-align: center; /* This centers the child elements horizontally */
     right: 50%;
     transform: translateX(50%); /* This centers the element */
-}
-    footer .social li a {
-      font-size: 1.875em;
-      position: relative;
-      text-align: center; /* This centers the child elements horizontally */
-      right: 50%;
-      transform: translateX(50%); /* This centers the element */
-      color: #999999; }
+    font-size: 1.875em;
+    color: #999999; }
