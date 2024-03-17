@@ -156,7 +156,10 @@ footer {
     display: inline;
     margin-left: 20px;
     position: relative;
-    text-align: center; /* This centers the child elements horizontally */}
+    text-align: center; /* This centers the child elements horizontally */
+    right: 50%;
+    transform: translateX(50%); /* This centers the element */
+}
     footer .social li a {
       font-size: 1.875em;
       color: #999999; }
