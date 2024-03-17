@@ -232,7 +232,7 @@ img,
 video,
 embed,
 object {
-  height: auto;
+  height: 100%; /* was auto */
 }
 embed,
 object {
