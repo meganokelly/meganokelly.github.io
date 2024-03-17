@@ -154,7 +154,9 @@ footer {
   padding: 50px 0px 0px 0px; }
   footer .social li {
     display: inline;
-    margin-left: 20px; }
+    margin-left: 20px;
+    position: relative;
+    text-align: center; /* This centers the child elements horizontally */}
     footer .social li a {
       font-size: 1.875em;
       color: #999999; }
