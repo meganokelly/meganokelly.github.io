@@ -375,7 +375,7 @@ address {
 blockquote {
   position: relative;
   font-style: italic;
-  font-size: 1.125em;
+  font-size: .5em;
   margin-left: 2.4749999999999996em;
   padding-left: 1.65em;
   border-left: 2px solid #dddddd;
@@ -390,7 +390,7 @@ cite {
 }
 small,
 blockquote cite {
-  font-size: 12.75px;
+  font-size: 9px;
   line-height: 1;
 }
 /* =Address
