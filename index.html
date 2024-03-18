@@ -88,8 +88,44 @@ html {
 
 
 	</style>
+
+<!-- quick browser compatibility statement -->
+<title>Browser Compatibility Notice</title>
+
+
+
 </head>
 <body>
+
+
+
+
+
+
+<!-- quick browser compatibility statement -->
+  <script>
+  // Function to check if the browser is Chrome, Safari, or Edge
+  function isSupportedBrowser() {
+      const userAgent = navigator.userAgent.toLowerCase();
+      return (userAgent.indexOf('chrome') > -1 || userAgent.indexOf('safari') > -1 || userAgent.indexOf('edge') > -1);
+  }
+
+  // Display the message if the browser is not supported
+  if (!isSupportedBrowser()) {
+      document.write("<p>Please note that this website performs better on Google Chrome, Safari, or Microsoft Edge. Please consider using one of these browsers for the best experience :) </p>");
+  }
+  </script>
+
+
+
+
+
+
+
+
+
+
+
 	<!-- Navigation -->
 	<div class="main-nav">
 		<div class="container">
