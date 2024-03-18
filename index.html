@@ -84,7 +84,9 @@ html {
     margin-left: 4px;
 }
 
-
+.center {
+    text-align: center;
+}
 
 
 	</style>
@@ -112,7 +114,7 @@ html {
 
   // Display the message if the browser is not supported
   if (!isSupportedBrowser()) {
-      document.write("<p><br><b>&nbsp;Hello :) <br> You are getting this note because it looks like you are <i>not</i> using Google Chrome, Safari, or Microsoft Edge (the browsers on which this webpage performs best). You may consider using one of these browsers for the best experience, or you may need to zoom in using <i>ctrl+</i> (or <i>cmmd+</i> if on a mac). <br> &nbsp;- Megan </b></p>");
+      document.write("<div class='center'><p><br><b>Hello :) <br> You are getting this note because it looks like you are <i>not</i> using Google Chrome, Safari, or Microsoft Edge (the browsers on which this webpage performs best).<br>You may consider using one of these browsers for the best experience, or you may want to zoom in using <i>ctrl+</i> (or <i>cmmd+</i> if on a mac). <br>- Megan </b></p></div>");
   }
   </script>
 
